@@ -21,3 +21,10 @@ Solution:
 1. Compute the number of each character for each string. If the number of each character
 is the same between two strings, then one is a permutation of the other.
 
+1.4 Write a method to replace all spaces in a string with '%20'
+==========
+Solution:
+First, count the number of spaces, then we know the length of the new string. Then we can 
+1. Create a new string, and traverse the old string, if it's not a space, keep the original character in the 
+new string, otherwise, replace the space with '%20'. 
+2. Extend the length of the old string, then edit the string backwards. Thus we don't need to create a new string.
