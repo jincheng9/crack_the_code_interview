@@ -35,7 +35,32 @@ return the original string.
 ==========
 Solution:
 1. Use another string to represent the compressed string, then compare the length of two strings, return 
-the string with smaller length. (In C++, we can use the operator + to concatenate strings.)
+the string with smaller length. If they have the same length, return the original string. As regard to how
+to obtain the compressed string, we traverse from the first character of the original string, add this character
+to the new string, and count the consecutive number of this character, and then add another character to 
+the new string, count the corresponding number, etc.
+(In C++, we can use the operator + to concatenate strings.) 
+
+1.6 Rotate a NxN matrix by 90 degree
+==========
+Solution:
+1. Rotate for each layer
+
+1.7 Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0
+==========
+Solution:
+1. Copy the original matrix as M', and then traverse the elements in M', if the element is 0, then the 
+corresponding row and column in the original matrix are set to 0.
+2. First traverse the original matrix to mark the row and column that need to be set to 0, and then use 
+the mark array to set the corresponding rows and columns to 0.
+
+1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two
+strings s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (
+e.g. "waterbottle" is a rotation of "erbottlewat").
+==========
+Solution:
+1. Let s3 = s1+s1, if s2 is a substring of s3, then s2 is a rotation of s1.
+
 
 
 
