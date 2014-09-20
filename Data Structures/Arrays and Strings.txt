@@ -44,14 +44,14 @@ the new string, count the corresponding number, etc.
 1.6 Rotate a NxN matrix by 90 degree
 ==========
 Solution:
-1. Rotate for each layer
+1. Rotate for each layer, can either from the outlayer to inner layer, or inner to outer.
 
 1.7 Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0
 ==========
 Solution:
 1. Copy the original matrix as M', and then traverse the elements in M', if the element is 0, then the 
-corresponding row and column in the original matrix are set to 0.
-2. First traverse the original matrix to mark the row and column that need to be set to 0, and then use 
+corresponding rows and columns in the original matrix are set to 0.
+2. First traverse the original matrix to mark the rows and columns that need to be set to 0, and then use 
 the mark array to set the corresponding rows and columns to 0.
 
 1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two
