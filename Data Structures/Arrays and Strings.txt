@@ -38,8 +38,7 @@ Solution:
 the string with smaller length. If they have the same length, return the original string. As regard to how
 to obtain the compressed string, we traverse from the first character of the original string, add this character
 to the new string, and count the consecutive number of this character, and then add another character to 
-the new string, count the corresponding number, etc.
-(In C++, we can use the operator + to concatenate strings.) 
+the new string, count the corresponding number, etc. (In C++, we can use the operator + to concatenate strings.) 
 
 1.6 Rotate a NxN matrix by 90 degree
 ==========
