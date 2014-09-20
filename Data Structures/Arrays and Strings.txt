@@ -3,15 +3,24 @@ data structures?
 -------------------------------------------------------------------------------------------------
 Solution: 
 1. Use an array of length 26 to store the number of each chracter (from 'a' to 'z'), if there is an element larger
-than 1, then this string doesn't have all unique characters. (O(n))
+than 1, then this string doesn't have all unique characters. (O(n)) 
 
 2. If we cannot use additional data structrures, then we can use a double for-loop to compare the characters in 
 the string, if there exists the same character, then the string doesn't have all unique characters. (O(n^2))
 
 or we can sort the characters in the string, and then traverse all characters to compare the neighbouring characters. (O(nlg(n)))
 
+remark: if the there are both small characters and capital characters, then we can use two arrays of both length 26
+to store the number of character 'a'-'z' and 'A' to 'Z'.
+
 1.2 Implement a function void reverse(char* str) in C or C++ which reverses a null terminated string.
 --------------------------------------------------------------------------------------------------
 Solution:
 1. First get the length of the string, say n, and then exchange the characters 0<->n-1, 1<->n-2, ...
+
+1.3 Given two strings, write a method to decide if one is a permutation of the other.
+---------------------------------------------------------------------------------------------------
+Solution:
+1. Compute the number of each character (from 'a' to 'z') for each string. If the number of each character
+is the same between two strings, then one is a permutation of the other.
 
