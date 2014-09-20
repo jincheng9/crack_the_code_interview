@@ -10,7 +10,7 @@ the string, if there exists the same character, then the string doesn't have all
 
 or we can sort the characters in the string, and then traverse all characters to compare the neighbouring characters. (O(nlg(n)))
 
-remark: if the there are both small characters and capital characters, then we can use two arrays of both length 26
+remark: if there are both small characters and capital characters, then we can use two arrays of both length 26
 to store the number of character 'a'-'z' and 'A' to 'Z'.
 
 1.2 Implement a function void reverse(char* str) in C or C++ which reverses a null terminated string.
