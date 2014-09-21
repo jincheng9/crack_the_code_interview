@@ -1,0 +1,9 @@
+Basic concepts in Stacks and Queues:
+(a) Stack: pop(), push(), top(), isEmpty()
+(b) Queue: enqueue(), dequeue()
+
+3.1 Describe how you could use a single array to implement three stacks.
+==========
+Solution:
+1. Use fixed array allocation for the three stacks, and then implement each stack on its own array space.
+
