@@ -1,4 +1,4 @@
-Basic concepts in Stacks and Queues:
+Basic operations in Stacks and Queues:
 
 (a) Stack: pop(), push(), top(), empty(), size()   (array + a top pointer)
 
