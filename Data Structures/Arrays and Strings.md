@@ -5,8 +5,7 @@ Solution:
 1. Use an array of length 128 to store the number of each character (from 00000000 to 01111111), if there is an element larger
 than 1, then this string doesn't have all unique characters. (O(n)) 
 2. If we cannot use additional data structrures, then we can use a double for-loop to compare the characters in 
-the string, if there exists the same character, then the string doesn't have all unique characters. (O(n^2))
-
+the string, if there exists the same character, then the string doesn't have all unique characters. (O(n^2)) 
 or we can sort the characters in the string, and then traverse all characters to compare the neighbouring characters. (O(nlg(n)))
 
 1.2 Implement a function void reverse(char* str) in C or C++ which reverses a null terminated string.
