@@ -38,8 +38,8 @@ to the new string, and count the consecutive number of this character, and then 
 the new string, count the corresponding number, etc. (In C++, we can use the operator + to concatenate strings.) 
 
 ### 1.6 Rotate a NxN matrix by 90 degree
-==========
 Solution:
+
 1. Rotate for each layer, can either from the outlayer to inner layer, or inner to outer.
 
 ### 1.7 Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0
@@ -50,9 +50,7 @@ corresponding rows and columns in the original matrix are set to 0.
 2. First traverse the original matrix to mark the rows and columns that need to be set to 0, and then use 
 the mark array to set the corresponding rows and columns to 0.
 
-### 1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two
-strings s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (
-e.g. "waterbottle" is a rotation of "erbottlewat").
+### 1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (e.g. "waterbottle" is a rotation of "erbottlewat").
 Solution:
 
 1. Let s3 = s1+s1, if s2 is a substring of s3, then s2 is a rotation of s1.
