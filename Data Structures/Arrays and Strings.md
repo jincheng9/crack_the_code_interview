@@ -3,7 +3,6 @@
 Solution: 
 1. Use an array of length 128 to store the number of each character (from 00000000 to 01111111), if there is an element larger
 than 1, then this string doesn't have all unique characters. (O(n)) 
-
 2. If we cannot use additional data structrures, then we can use a double for-loop to compare the characters in 
 the string, if there exists the same character, then the string doesn't have all unique characters. (O(n^2))
 
