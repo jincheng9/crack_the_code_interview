@@ -1,4 +1,5 @@
 Basic concepts in Stacks and Queues:
+
 (a) Stack: pop(), push(), top(), empty(), size()   (array + a top pointer)
 
 (b) Queue: enqueue(), dequeue(), front(), back(), empty(), size() (array + a head pointer + a tail pointer)
