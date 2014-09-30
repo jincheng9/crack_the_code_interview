@@ -23,13 +23,12 @@ is the same between two strings, then one is a permutation of the other.
 Solution:
 
 First, count the number of spaces, then we know the length of the new string. Then we can 
+
 1. Create a new string, and traverse the old string, if it's not a space, keep the original character in the 
 new string, otherwise, replace the space with '%20'. 
 2. Extend the length of the old string, then edit the string backwards. Thus we don't need to create a new string.
 
-### 1.5 Implement a method to perform basic string compression usign the counts of repeated characters. Like 
-aabcccccaaa -> a2b1c5a3. If the compressed string would not become smaller then the original string, just
-return the original string. 
+### 1.5 Implement a method to perform basic string compression usign the counts of repeated characters. Like  aabcccccaaa -> a2b1c5a3. If the compressed string would not become smaller then the original string, just return the original string. 
 Solution:
 
 1. Use another string to represent the compressed string, then compare the length of two strings, return 
