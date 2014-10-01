@@ -1,0 +1,1 @@
+# TreesBinary Tree (BT) -> Binary Search Tree (BST) -> Balance Binary Search Tree (AVL and Red-Black Tree)Binary Tree -> Full Binary Tree (满二叉树), Complete Binary Tree (完全二叉树)# Heaps or Binary Heaps(二叉堆， 也是一种完全二叉树)# Graphs
