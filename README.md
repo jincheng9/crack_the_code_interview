@@ -1,4 +1,4 @@
-Solutions and C++ codes for "Cracking the Coding Interview" 5th version
+Solutions for the book "Cracking the Coding Interview" 5th version
 
 
 
