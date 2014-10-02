@@ -27,7 +27,7 @@
 		return num & (~(1 << i));
 	}
 	```
-4. update: update the ith bit be v, if v is 1, then the ith bit will be 1, otherwise 0
+4. update: update the ith bit to be v, if v is 1, then the ith bit will be 1, otherwise 0
 	
 	```cpp
 	int updateBit(int num, int i, int v) {
