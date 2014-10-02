@@ -7,6 +7,7 @@
   
 ## Common bit tasks: get, set, clear, and update bit
 1. get: get the ith bit (from the right)
+
 	```C
 	bool getBit(int num, int i) {
 		return ((num & (1<<i)) != 0);
