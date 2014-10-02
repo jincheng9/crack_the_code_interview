@@ -30,6 +30,7 @@ Solution:
 		* Q3 -> append x*3, x*5, and x*7 to Q3, Q5, and Q7 respectively. Remove x from Q3.
 		* Q5 -> append x*5, and x*7 to Q5 and Q7 respectively. Remove x from Q5.
 		* Q7 -> append x*7 to Q7. Remove x from Q7
-	6. Repeat steps 4-6 until we found k elements. 
+	6. Repeat steps iv-vi until we found k elements. 
+
 
  
