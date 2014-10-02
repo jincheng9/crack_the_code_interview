@@ -6,6 +6,9 @@
   * x ^ x = 0s        &nbsp;&nbsp;&nbsp;&nbsp;    x & x = x      &nbsp;&nbsp;&nbsp;&nbsp;    x | x = x
   
 ## Common bit tasks: get, set, clear, and update bit
+
+The ith bit means that the rightmost bit as the 0th bit, count from right to left. 
+
 1. get: get the ith bit (from the right) 
 
 	```cpp
@@ -35,5 +38,9 @@
 		return (num & mask) | (v << i);
 	}
 	```
-	
+### 5.4 Explain what the following code does: ((n & (n-1)) == 0).
+Solution:
+
+1. if ((n & (n-1)) == 0), then n is a power of 2 or n is 0. 
+
 	
