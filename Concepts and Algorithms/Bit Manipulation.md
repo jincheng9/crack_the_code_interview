@@ -14,4 +14,10 @@
 	}
 	```
 2. set: set the ith bit 
-
+	
+	```cpp
+	int setBit (int num, int i) {
+		return num | (1<<i);
+	}
+	```
+3. 
