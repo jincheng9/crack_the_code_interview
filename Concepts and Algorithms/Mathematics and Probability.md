@@ -23,7 +23,7 @@ Solution:
 
 1. The pseudocode is as follows:
 	1. Initialize array and queues Q3, Q5, and Q7
-	2. Insert 1 into array.
+	2. Insert 1 into array. (1 is the first element)
 	3. Insert 1*3, 1*5, and 1*7 into Q3, Q5, and Q7 respectively.
 	4. Let x be the minimum element in Q3, Q5 and Q7. Append x to magic.
 	5. If x was found in:
