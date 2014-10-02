@@ -21,5 +21,15 @@ int fib(int i) {
 }
 ```
 
+#### 1. staircase with n steps
+
+#### 2. X*Y grids, from (0, 0) to (X, Y)
+
+#### 3. find magic index, A[i] = i
+
+#### 4. find all the subsets of a set
+
+#### 5. find all the permutations of a string 
+
 
 
