@@ -20,7 +20,7 @@ Solution:
 1.  Pick i pills from bottle i, assume the 1.1 grams pills are in the jth bootle, then the sum should be 
 sum = 1 + 2 + 3 + ... + j-1 + 1.1*j + j+1 + ... + 20. Thus j = (sum-(1+2+...+20))/0.1. 
 
-### 25 horses, 5 tracks, can only compare 5 hourse each round, find the first three fastest horses using minimum rounds. 
+### 4. 25 horses, 5 tracks, can only compare 5 hourse each round, find the first three fastest horses using minimum rounds. 
 Solution:
 
 1. The minimum rounds are 7. 
