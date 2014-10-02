@@ -38,6 +38,7 @@ The ith bit means that the rightmost bit as the 0th bit, count from right to lef
 		return (num & mask) | (v << i);
 	}
 	```
+
 ### 5.4 Explain what the following code does: ((n & (n-1)) == 0).
 Solution:
 
