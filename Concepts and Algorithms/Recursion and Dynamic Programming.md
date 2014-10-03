@@ -47,8 +47,28 @@ Follow UP Solution:
 Note: We assume here that there is only one magic index in the array. 
 
 #### 4. find all the subsets of a set
+Solution:
+
+1. Assume there are n elements in the set, a_n is the nth element. A(n) is all the subsets of this set, A(n-1) is all the subsets of the set that consists of the first n-1 elements in the original set, and so on for A(n-2), A(n-3), ..., A(1). Then we have the following recurrence relationship:
+
+	A(n) = {A(n-1), a_n + A(n-1)} 
 
 #### 5. find all the permutations of a string 
+Solution:
+
+1. Assume there are n characters in the set, a_n is the nth character. A(n) is all the permutations of this string, A(n-1) is all the permutations of the string that consists of the first n-1 characters in the original string, and so on for A(n-2), A(n-3), ..., A(1). Then we have the following recurrence relationship:
+
+	A(n) = {insert a_n into every possible position of each permutation in A(n-1)}
+	
+For example, string s = "123". A(2) = {"12", "21"}, then A(3) = {"312", "132", "123", "321", "231", "213"}
+
+### 6. Write an algorithm to print all ways of arranging eight queens on an 8x8 chess board so that none of them share the same row, column or diagonal. In this case, "diagonal" means all diagonals, not just the two that bisect the board.
+
+Solution:
+
+1. Condition on the position of the queen at row 8, then for each possible position of the queen at row 8 condition on the queen at row 7. For every possible position of the queen at row 7, condition on the position of the queen at row 6, and so on for the other queens. See the recurrence formula at page 331.
+
+
 
 
 
