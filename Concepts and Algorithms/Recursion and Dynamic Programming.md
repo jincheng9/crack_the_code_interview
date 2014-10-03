@@ -8,6 +8,7 @@
 		return fib(i-1)+fib(i-2);
 	}
 	```
+
 ### Dynamic Programming (DP)
 1. Recursive + cached results
 
