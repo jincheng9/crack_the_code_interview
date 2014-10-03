@@ -37,7 +37,7 @@ Solution:
 Solution:
 
 1. Just traverse all index from 0 to n-1, to check which index satisfies A[i]=i.
-2. Use binary search. Since the elements are sorted distinct integers, if A[mid]>mid, then the magic index must exists between 0 to mid-1. If A[mid]<mid, then the magic index must exists between mid+1 to n-1. 
+2. Use binary search. Since the elements are sorted distinct integers, if A[mid]>mid, then the magic index must exists between 0 to mid-1. If A[mid]<mid, then the magic index must exists between mid+1 to n-1. If A[mid]==mid, then we find the magic index. 
 
 Follow UP Solution:
 
@@ -66,7 +66,7 @@ For example, string s = "123". A(2) = {"12", "21"}, then A(3) = {"312", "132", "
 
 Solution:
 
-1. Condition on the position of the queen at row 8, then for each possible position of the queen at row 8 condition on the queen at row 7. For every possible position of the queen at row 7, condition on the position of the queen at row 6, and so on for the other queens. See the recurrence formula at page 331.
+1. Condition on the position of the queen at row 8, then for each possible position of the queen at row 8, condition on the queen at row 7. For every possible position of the queen at row 7, condition on the position of the queen at row 6, and so on for the other queens. See the recurrence formula at page 331.
 
 
 
