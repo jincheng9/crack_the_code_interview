@@ -31,6 +31,9 @@ Solution:
 
 ```tex
 1. C(X+Y, X) $C_{X+Y}^X$
+\begin{equation}
+C_{X+Y}^X
+\end{equation}
 ```
 #### 3. find magic index, A[i] = i
 
