@@ -16,15 +16,22 @@ int fibonacci[MAX] = {0};
 int fib(int i) {
 	if (i==0 || i==1) return i;
 	if (fibonacci[i]!=0) return fibonacci[i];
-	fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+	fibonacci[i] = fib(i-1) + fib(i-2);
 	return fibonacci[i];
 }
 ```
 
-#### 1. staircase with n steps
+#### 1. A child is running up a staircase with n steps, and can hop either 1 step, 2 steps, or 3 steps at a time. Count how many possible ways the child can run up the stairs.
+Solution:
 
-#### 2. X*Y grids, from (0, 0) to (X, Y)
+1. f(n) = f(n-1) + f(n-2) + f(n-3) 
 
+#### 2. X*Y grids, only go right or up, how many paths from from (0, 0) to (X, Y)?
+Solution:
+
+```tex
+1. C(X+Y, X) $C_{X+Y}^X$
+```
 #### 3. find magic index, A[i] = i
 
 #### 4. find all the subsets of a set
