@@ -56,4 +56,22 @@ Some Useful References from Wikipedia: http://zh.wikipedia.org/wiki/%E6%8E%92%E5
 		}
 	}
 	```
+	
+2. Iterative version of binary search
+
+	```cpp
+	int binSearch(int *array, int value, int low, int high) {
+		while(low<=high) {
+			int mid = (low+high)/2;
+			if(array[mid] == value) {
+				return mid;
+			} else if(array[mid] > value) {
+				high = mid - 1;
+			} else {
+				low = mid + 1;
+			}
+		}
+	}
+	```
+	
 
