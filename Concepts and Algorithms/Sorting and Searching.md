@@ -42,7 +42,7 @@ Some Useful References from Wikipedia: http://zh.wikipedia.org/wiki/%E6%8E%92%E5
 
 ## Searching Algorithms
 #### Binary Search
-
+1. Recursive version of binary search
 	```cpp
 	int binSearch(int *array, int value, int low, int high) {
 		int mid = (low+high)/2;
