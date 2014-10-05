@@ -3,8 +3,7 @@
 	* Recurrence relationship is correct. First assume that the recursive funtion is correct. Then under this assumption, check whether the recurrence relationship is correct. 
 	* Base case. We need to have a base case for the recurrsive function. Otherwise, the recursive function will go to infinite loop. Sometimes, the base case is not clearly written, such as the base case for merge sorting algorithm. 
 	* Go back to the base case. When will invoke the recursive function, the function need to go towards the base case. 
-	
-If the recursive function satisfies the three above conditions, the recursive function should be correct. If you are still not sure, you can mimic the recursive stack (or stack tree if there are multiple invocations for the recurrence relationship) to check the function's correctness. 
+	* If the recursive function satisfies the three above conditions, the recursive function should be correct. If you are still not sure, you can mimic the recursive stack (or stack tree if there are multiple invocations for the recurrence relationship) to check the function's correctness. 
 	
 2. Iterative solutions: recursive algorithms can be very space inefficient. Each recursive call adds a new layer to the stack, which means that if your algorithm has O(n) recursive calls, then it uses O(n) memory. 
 
