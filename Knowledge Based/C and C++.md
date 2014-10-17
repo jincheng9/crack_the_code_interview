@@ -2,7 +2,7 @@
 A class consists of data members and methods. They are default private, we can use keyword public to make these
 data members and methods public.
 
-	```CPP
+	```cpp
 	#include <iostream>
 	using namespace std;
 	
